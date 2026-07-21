@@ -2,9 +2,9 @@
 <html lang="tr">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-		<meta name="description" content="Mini Fabrika — yüksek kontrastlı gece vardiyası geliştirme demosu.">
 		<meta name="theme-color" content="#050b12">
+		<meta name="description" content="Mini Fabrika — yüksek kontrastlı gece vardiyası fabrika yönetim demosu.">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Mini Fabrika</title>
 		<style>
 html, body, #canvas {
@@ -15,7 +15,7 @@ html, body, #canvas {
 
 body {
 	color: white;
-	background-color: #050b12;
+	background-color: black;
 	overflow: hidden;
 	touch-action: none;
 }
@@ -25,7 +25,8 @@ body {
 }
 
 #canvas:focus {
-	outline: none;
+	outline: 3px solid #3de6f5;
+	outline-offset: -3px;
 }
 
 #status, #status-splash, #status-progress {
@@ -97,12 +98,12 @@ body {
 
 	</head>
 	<body>
-		<canvas id="canvas" aria-label="Mini Fabrika oyun alanı">
-			Tarayıcınız HTML canvas özelliğini desteklemiyor.
+		<canvas id="canvas" role="application" tabindex="0" aria-label="Mini Fabrika oyun alanı">
+			Your browser does not support the canvas tag.
 		</canvas>
 
 		<noscript>
-			Bu demoyu çalıştırmak için JavaScript etkin olmalıdır.
+			Your browser does not support JavaScript.
 		</noscript>
 
 		<div id="status">
@@ -113,7 +114,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":328756,"index.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":453564,"index.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
