@@ -361,11 +361,12 @@ const engine = new Engine(GODOT_CONFIG);
 	const CONTENT = {
 		tr: {
 			title: 'Mini Fabrika — Nasıl Oynanır',
-			intro: 'Gece vardiyasında bir masa vantilatörü üretim hattını yönetiyorsun. Hammadde al, iş istasyonlarını bantlarla birbirine bağla, siparişleri zamanında yetiştir; enerji, bakım ve finansı dengede tut.',
+			intro: 'Gece vardiyasında bir masa vantilatörü üretim hattını yönetiyorsun. Hammadde al, soldaki hammadde iskelesinden sağdaki sevkiyat rampasına bir bant hattı döşe, makineleri bu hatta bağla, siparişleri zamanında yetiştir; enerji, bakım ve finansı dengede tut.',
 			flowTitle: 'Temel Akış',
 			flow: [
 				'Hammadde stoğunu doldur.',
-				'İş istasyonlarını yerleştir ve <strong>bantlarla uç uca bağla</strong> — bant, bir istasyonun çıkışını diğerinin girişine taşır. Bağlantı kurulmuyorsa istasyonların giriş/çıkış noktalarının bantla aynı hizada olmasına dikkat et.',
+				'Soldaki <strong>hammadde iskelesinden</strong> sağdaki <strong>sevkiyat rampasına</strong> kadar <strong>kesintisiz tek bir bant hattı</strong> döşe.',
+				'Makineleri bu hattın <strong>hemen yanına</strong>, ona değecek şekilde yerleştir — makineyi bandın üstüne koyup hattı ikiye bölme. Bir makine "GİRDİ HATTI YOK / ÇIKIŞ HATTI YOK" diyorsa hatta değmiyordur.',
 				'Siparişleri kabul et ve üretimi ona göre ayarla.',
 				'Enerjiyi ve bakımı takip et, arızaları onar.',
 				'Finans ve vardiya raporlarından kârını izle; itibar arttıkça yeni ürünlerin açılır.',
@@ -384,11 +385,12 @@ const engine = new Engine(GODOT_CONFIG);
 		},
 		en: {
 			title: 'Mini Fabrika — How to Play',
-			intro: 'You run a desk-fan production line on the night shift. Buy raw materials, connect workstations with conveyor belts, fulfil orders on time, and keep energy, maintenance and finances balanced.',
+			intro: 'You run a desk-fan production line on the night shift. Buy raw materials, lay a belt line from the material dock on the left to the shipping ramp on the right, connect your machines to that line, fulfil orders on time, and keep energy, maintenance and finances balanced.',
 			flowTitle: 'Core Loop',
 			flow: [
 				'Stock up on raw materials.',
-				'Place workstations and <strong>connect them end to end with belts</strong> — a belt carries one station\'s output into the next one\'s input. If a connection won\'t form, make sure the stations\' input/output points line up with the belt.',
+				'Lay a <strong>single unbroken belt line</strong> from the <strong>material dock</strong> on the left to the <strong>shipping ramp</strong> on the right.',
+				'Place machines <strong>right next to that line</strong> so they touch it — don\'t drop a machine on top of the belt and split the line in two. If a machine says "NO IN LINK / NO OUT LINK", it isn\'t touching the line.',
 				'Accept orders and tune production to match.',
 				'Watch energy and maintenance, and repair breakdowns.',
 				'Track profit from the finance and shift reports; new products unlock as your reputation grows.',
