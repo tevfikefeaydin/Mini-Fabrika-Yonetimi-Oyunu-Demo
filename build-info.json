@@ -1,0 +1,9 @@
+{
+  "name": "Mini Fabrika Web Demo",
+  "channel": "development-demo",
+  "engine": "Godot 4.7.1",
+  "source_repository": "tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu",
+  "source_commit": "a6d3a611e7f62459a24b8629a0cdcc966486af72",
+  "ci_run": 29814424484,
+  "built_at": "2026-07-21T08:28:30Z"
+}
