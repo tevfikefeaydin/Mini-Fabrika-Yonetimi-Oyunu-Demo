@@ -10,6 +10,7 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 
 - Masa vantilatörü üretim hattı
 - Hammadde, sipariş, enerji ve çalışan yönetimi
+- Dört kişilik başlangıç kadrosu ve beceri/ücret bilgili operatör işe alım ekranı
 - Bakım ve arıza sistemi
 - Finans ve vardiya raporları
 - Akış, enerji ve sağlık görünümleri
@@ -19,7 +20,7 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 - Beş adımlı başlangıç rehberi, sürüklemeli bant yerleşimi ve açık bağlantı durumları
 - Oyun içinden her an açılabilen yardım ekranı
 - Görünür makine ve hammadde fiyatları, vardiya maliyet tahmini ve üretim hazırlık uyarıları
-- Yüksek çözünürlükte doğal keskinlik, pencere/tam ekran seçimi ve ölçeklenebilir arayüz
+- Cihazın kullanılabilir alanına uyarlanan keskin Web görünümü; 1280×720, Full HD, ultrawide ve yüksek DPI desteği
 - Servis kuyruğu ilerlemesi, iptal/iade akışı ve ayrıntılı vardiya raporu
 
 ## Kontroller
@@ -44,6 +45,6 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 
 Dağıtım bildirimleri: [MIT lisansı](LICENSE), [üçüncü taraf bildirimleri](THIRD_PARTY_NOTICES.md), [Godot telif ve lisansları](GODOT_COPYRIGHT.txt), [Oxanium font lisansı](OFL-Oxanium.txt).
 
-Build kaynağı: `cc277d0` — CI koşusu `30440946506`
+Build kaynağı: `a07885c` — CI koşusu `30445709480`
 
-Geliştirme PR'ı: https://github.com/tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu/pull/4
+Geliştirme PR'ı: https://github.com/tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu/pull/5

@@ -3,7 +3,7 @@
   "channel": "development-demo",
   "engine": "Godot 4.7.1",
   "source_repository": "tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu",
-  "source_commit": "cc277d0570b59c6f4cc22bb5e1286aacf394fe65",
-  "ci_run": 30440946506,
-  "built_at": "2026-07-29T09:48:05Z"
+  "source_commit": "a07885c66049aec2e4e1551d9b49d82a1318c8d9",
+  "ci_run": 30445709480,
+  "built_at": "2026-07-29T11:00:32Z"
 }

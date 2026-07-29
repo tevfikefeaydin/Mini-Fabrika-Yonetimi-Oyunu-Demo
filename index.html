@@ -95,6 +95,7 @@ body {
 
 /* --- Nasıl Oynanır / How to Play overlay --- */
 #tutorial-overlay {
+	box-sizing: border-box;
 	position: fixed;
 	inset: 0;
 	z-index: 100;
@@ -112,16 +113,27 @@ body {
 
 #tutorial-card {
 	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	max-width: 560px;
-	max-height: 90vh;
-	overflow-y: auto;
+	max-height: calc(100vh - 2rem);
+	max-height: calc(100dvh - 2rem);
+	overflow: hidden;
 	padding: 1.5rem 1.75rem;
 	background: #0a1622;
 	border: 1px solid #3de6f5;
 	border-radius: 12px;
 	box-shadow: 0 0 40px rgba(61, 230, 245, 0.15);
 	color: #e6f6fa;
+}
+
+.tut-scroll {
+	flex: 1 1 auto;
+	min-height: 0;
+	overflow-y: auto;
+	padding-right: 0.35rem;
+	scrollbar-gutter: stable;
 }
 
 #tutorial-card h1 {
@@ -164,11 +176,14 @@ body {
 }
 
 .tut-actions {
+	flex: none;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	gap: 0.6rem;
-	margin-top: 1.4rem;
+	margin-top: 0.9rem;
+	padding-top: 0.9rem;
+	border-top: 1px solid rgba(143, 216, 230, 0.25);
 }
 
 .tut-btn {
@@ -247,7 +262,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":490236,"index.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":510668,"index.wasm":39513091},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
@@ -419,10 +434,12 @@ const engine = new Engine(GODOT_CONFIG);
 			.map((row) => '<li><kbd>' + row[0] + '</kbd> — ' + row[1] + '</li>')
 			.join('');
 		card.innerHTML =
+			'<div class="tut-scroll">' +
 			'<h1 id="tutorial-title">' + c.title + '</h1>' +
 			'<p>' + c.intro + '</p>' +
 			'<h2>' + c.flowTitle + '</h2><ul>' + flowItems + '</ul>' +
 			'<h2>' + c.controlsTitle + '</h2><ul>' + controlItems + '</ul>' +
+			'</div>' +
 			'<div class="tut-actions">' +
 			'<button type="button" class="tut-btn tut-btn--primary" data-action="start">' + c.start + '</button>' +
 			'<button type="button" class="tut-btn tut-btn--ghost" data-action="lang">' + c.langLabel + '</button>' +
@@ -432,6 +449,10 @@ const engine = new Engine(GODOT_CONFIG);
 	function openOverlay() {
 		render();
 		overlay.hidden = false;
+		const startButton = card.querySelector('[data-action="start"]');
+		if (startButton) {
+			startButton.focus();
+		}
 	}
 
 	function closeOverlay() {
@@ -452,6 +473,10 @@ const engine = new Engine(GODOT_CONFIG);
 		} else if (action === 'lang') {
 			lang = lang === 'tr' ? 'en' : 'tr';
 			render();
+			const langButton = card.querySelector('[data-action="lang"]');
+			if (langButton) {
+				langButton.focus();
+			}
 		}
 	});
 
