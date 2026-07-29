@@ -16,6 +16,7 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 - İtibar ilerlemesi, ikinci ürün ve sınırsız devam
 - Yerel kayıt ile taşınabilir yedek içe/dışa aktarma
 - Türkçe ve İngilizce arayüz
+- Beş adımlı başlangıç rehberi, sürüklemeli bant yerleşimi ve açık bağlantı durumları
 
 ## Kontroller
 
@@ -38,6 +39,6 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 
 Dağıtım bildirimleri: [MIT lisansı](LICENSE), [üçüncü taraf bildirimleri](THIRD_PARTY_NOTICES.md), [Godot telif ve lisansları](GODOT_COPYRIGHT.txt), [Oxanium font lisansı](OFL-Oxanium.txt).
 
-Build kaynağı: `f2e4594` — CI koşusu `29833512684`
+Build kaynağı: `59f9f6b` — CI koşusu `30430135039`
 
-Geliştirme PR'ı: https://github.com/tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu/pull/1
+Geliştirme PR'ı: https://github.com/tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu/pull/3
