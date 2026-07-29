@@ -14,6 +14,9 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 - Bakım ve arıza sistemi
 - Finans ve vardiya raporları
 - Akış, enerji ve sağlık görünümleri
+- Bant üzerinde hareketli üretim paketleri ve makineye özel çalışma animasyonları
+- Üretim tamamlanması ile arızalarda kısa, okunaklı görsel geri bildirimler
+- Fabrika alanını kapatmayan kompakt durum göstergeleri ve ölçülü gece vardiyası ışıkları
 - İtibar ilerlemesi, ikinci ürün ve sınırsız devam
 - Yerel kayıt ile taşınabilir yedek içe/dışa aktarma
 - Türkçe ve İngilizce arayüz
@@ -45,6 +48,6 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 
 Dağıtım bildirimleri: [MIT lisansı](LICENSE), [üçüncü taraf bildirimleri](THIRD_PARTY_NOTICES.md), [Godot telif ve lisansları](GODOT_COPYRIGHT.txt), [Oxanium font lisansı](OFL-Oxanium.txt).
 
-Build kaynağı: `a07885c` — CI koşusu `30445709480`
+Build kaynağı: `fb743685` — CI koşusu `30451762536`
 
-Geliştirme PR'ı: https://github.com/tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu/pull/5
+Geliştirme PR'ı: https://github.com/tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu/pull/6
