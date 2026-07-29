@@ -17,6 +17,10 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 - Yerel kayıt ile taşınabilir yedek içe/dışa aktarma
 - Türkçe ve İngilizce arayüz
 - Beş adımlı başlangıç rehberi, sürüklemeli bant yerleşimi ve açık bağlantı durumları
+- Oyun içinden her an açılabilen yardım ekranı
+- Görünür makine ve hammadde fiyatları, vardiya maliyet tahmini ve üretim hazırlık uyarıları
+- Yüksek çözünürlükte doğal keskinlik, pencere/tam ekran seçimi ve ölçeklenebilir arayüz
+- Servis kuyruğu ilerlemesi, iptal/iade akışı ve ayrıntılı vardiya raporu
 
 ## Kontroller
 
@@ -27,6 +31,7 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 - `Ctrl+S`: kayıt
 - `Ctrl+Shift+S`: kayıt yöneticisi
 - Kayıt yöneticisinde `I`: taşınabilir yedeği içe aktar
+- Sağ üstteki `?`: oyun içi yardım
 
 ## Notlar
 
@@ -39,6 +44,6 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 
 Dağıtım bildirimleri: [MIT lisansı](LICENSE), [üçüncü taraf bildirimleri](THIRD_PARTY_NOTICES.md), [Godot telif ve lisansları](GODOT_COPYRIGHT.txt), [Oxanium font lisansı](OFL-Oxanium.txt).
 
-Build kaynağı: `59f9f6b` — CI koşusu `30430135039`
+Build kaynağı: `cc277d0` — CI koşusu `30440946506`
 
-Geliştirme PR'ı: https://github.com/tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu/pull/3
+Geliştirme PR'ı: https://github.com/tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu/pull/4
