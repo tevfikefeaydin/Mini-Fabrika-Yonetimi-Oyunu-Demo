@@ -13,6 +13,7 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 - Dört kişilik başlangıç kadrosu ve beceri/ücret bilgili operatör işe alım ekranı
 - Bakım ve arıza sistemi
 - Finans ve vardiya raporları
+- ₺5.000 limitli işletme kredisi, tek tıkla vardiya açığı kapatma, %2 vardiya faizi ve manuel geri ödeme
 - Akış, enerji ve sağlık görünümleri
 - Bant üzerinde hareketli üretim paketleri ve makineye özel çalışma animasyonları
 - Üretim tamamlanması ile arızalarda kısa, okunaklı görsel geri bildirimler
@@ -48,6 +49,6 @@ https://tevfikefeaydin.github.io/Mini-Fabrika-Yonetimi-Oyunu-Demo/
 
 Dağıtım bildirimleri: [MIT lisansı](LICENSE), [üçüncü taraf bildirimleri](THIRD_PARTY_NOTICES.md), [Godot telif ve lisansları](GODOT_COPYRIGHT.txt), [Oxanium font lisansı](OFL-Oxanium.txt).
 
-Build kaynağı: `fb743685` — CI koşusu `30451762536`
+Build kaynağı: `32581a05` — CI koşusu `30458336544`
 
-Geliştirme PR'ı: https://github.com/tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu/pull/6
+Geliştirme PR'ı: https://github.com/tevfikefeaydin/Mini-Fabrika-Yonetimi-Oyunu/pull/7
